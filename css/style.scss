@@ -1,0 +1,35 @@
+nav{
+    background-color: #3F88C5;
+    position: fixed;
+    width: 100%;
+    ul{
+        list-style-type: none;
+        display: inline;
+        overflow: hidden;
+        li{
+            float: right;
+            display: block;
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            margin-left:20px;
+            padding: 20px 30px;
+        }
+    }
+}
+
+li a:hover{
+    background-color: #05668D;
+}
+
+body{
+    margin: 0;
+    height: 200px;
+    background-image: url("http://www.wallpapersfans.com/wp-content/uploads/2016/11/minimalist-hd-wallpaper-102.jpg");
+}
+
+// .back{
+//     
+// }
