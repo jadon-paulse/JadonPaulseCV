@@ -1,11 +1,13 @@
 nav{
-    background-color: #3F88C5;
-    position: fixed;
-    width: 100%;
     ul{
         list-style-type: none;
-        display: inline;
+        position: fixed;
+        top: 0;
         overflow: hidden;
+        display: inline;
+        background-color: #3F88C5;
+        margin-top: 0px;
+        width: 98%;
         li{
             float: right;
             display: block;
@@ -26,10 +28,8 @@ li a:hover{
 
 body{
     margin: 0;
-    height: 200px;
-    background-image: url("http://www.wallpapersfans.com/wp-content/uploads/2016/11/minimalist-hd-wallpaper-102.jpg");
+    background-image: url("http://genchi.info/image/minimalist-hd-wallpaper-14.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-// .back{
-//     
-// }
